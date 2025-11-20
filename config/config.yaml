@@ -1,0 +1,4 @@
+#define the path to the query genome in fasta format
+QUERY_GENOME: "resources/query_genome.fasta"
+#path to the directory containing the target genomes, again in fasta format
+REFERENCE_GENOMES_PATH: "resources/target_genomes/"

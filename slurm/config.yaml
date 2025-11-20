@@ -1,0 +1,15 @@
+executor: slurm
+jobs: 10
+use-conda: True
+
+default-resources:
+  mem_mb: 20000
+  runtime: 120
+  slurm_partition: PARTITION
+  slurm_account: PROJECT
+  ntasks: 1
+
+# Additional settings to control SLURM log behavior
+slurm-logdir: slurm/logs/
+slurm-keep-successful-logs: True
+
