@@ -1,15 +1,19 @@
 executor: slurm
 jobs: 10
 use-conda: True
+scheduler: "ilp"
 
 default-resources:
   mem_mb: 20000
   runtime: 120
-  slurm_partition: PARTITION
-  slurm_account: PROJECT
+  slurm_partition: compute,hugemem
+  slurm_account: 2025_flagship6
   ntasks: 1
 
 # Additional settings to control SLURM log behavior
 slurm-logdir: slurm/logs/
 slurm-keep-successful-logs: True
+
+#retries
+restart-times: 1
 

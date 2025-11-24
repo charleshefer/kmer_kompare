@@ -1,3 +1,2 @@
-./conda-env
-./snakemake
-slurm/logs
+conda-env
+.snakemake
