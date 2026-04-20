@@ -1,4 +1,7 @@
 #define the path to the query genome in fasta format
 QUERY_GENOME: "resources/Trichoderma_atroviride_F711_v0.1.fasta"
 #path to the directory containing the target genomes, again in fasta format
-REFERENCE_GENOMES_PATH: "resources/target_genomes/"
+REFERENCE_GENOMES_PATH: "resources/target_genomes"
+#kmers
+#KMERS: [31, 51, 71, 91]
+KMERS: [31, 51, 71, 91]

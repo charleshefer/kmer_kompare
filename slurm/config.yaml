@@ -15,5 +15,5 @@ slurm-logdir: slurm/logs/
 slurm-keep-successful-logs: True
 
 #retries
-restart-times: 1
+restart-times: 3
 
